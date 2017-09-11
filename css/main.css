@@ -1,0 +1,206 @@
+
+/***** GRID *****/
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.third-width {
+  width: 33%;
+}
+
+/***** Header *****/
+
+
+
+header h1 {
+  padding-top: 30px;
+  font-family: 'Rock Salt', cursive;
+  font-size: 50px;
+  margin: 0px 0px 0px 70px;
+}
+
+header p {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 30px 0 0 250px;
+  font-size: 50px;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+header,
+#work {
+  background-color: #B0C4DE;
+}
+
+header {
+  height: 400px;
+  margin-top: 0px;
+  top: 0px;
+}
+
+#about,
+#skills,
+#work {
+  height: 550px;
+  overflow: hidden;
+}
+
+
+
+/***** About *****/
+
+#about p {
+  float: left;
+  margin-left: 90px;
+  font-family: 'Merriweather Sans', sans-serif;
+
+
+}
+
+#about h2 {
+  margin-left: 70px;
+  font-family: 'Rock Salt', cursive;
+}
+
+#about img {
+  width: 480px;
+  height: 375px;
+  float: left;
+  border: 2px solid black;
+  margin: 50px 0 0 90px;
+}
+
+#about .half-width {
+  float: left;
+}
+
+
+/***** Skills *****/
+
+#skills h2 {
+  margin-left: 70px;
+  font-family: 'Rock Salt', cursive;
+}
+
+#skills .third-width {
+  float: left;
+}
+
+#skills .third-width img {
+  margin: 50px 0 0 170px;
+}
+
+#html {
+  margin-left: 210px;
+}
+
+#css {
+  margin-left: 213px;
+}
+
+#ruby {
+  margin-left: 207px;
+}
+
+#skills p {
+  width: 40%;
+  padding-left: 145px;
+}
+
+#ruby p {
+  width: 40%;
+  padding-left: 155px;
+}
+
+#skills p {
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+}
+
+/***** Work *****/
+
+#work h2 {
+  margin-left: 70px;
+  font-family: 'Rock Salt', cursive;
+}
+
+#work .third-width img {
+  width: 330px;
+  height: 250px;
+  border: 2px solid black;
+  margin: 70px 0 0 70px;
+}
+
+#work .third-width {
+  float: left;
+}
+
+
+
+
+/***** Contact *****/
+
+#contact {
+  height: 245px;
+}
+
+#contact {
+  overflow: hidden;
+}
+
+#contact .third-width {
+  margin-left: 70px;
+  float: left;
+  
+}
+
+#contact h2 {
+  font-family: 'Rock Salt', cursive;
+
+}
+
+#contact p {
+  font-family: 'Merriweather Sans', sans-serif;
+  float: left;
+}
+
+#contact ul {
+  float: right;
+  padding-left: 100px;
+  padding-top: 120px;
+}
+
+#contact li {
+  float: left;
+  list-style: none;
+  margin-right: 10px;
+
+}
+
+#contact img {
+  height: 40px;
+  width: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/***** Styling *****/
+
+#about,
+#skills,
+#contact {
+  background-color: #F5F5F5;
+}
